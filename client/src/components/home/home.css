@@ -1,0 +1,53 @@
+.home-header{
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
+
+.home-header-content{
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.home-latest-posts h1{
+    border-bottom: 3px solid #CE9969;
+    width: max-content;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+}
+
+.home-container{
+    display: flex;
+    align-items: flex-start;
+}
+
+.post-list{
+    flex: 9;
+}
+
+.post-sidebar{
+    flex: 3;
+}
+
+.go-to-all-posts{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.go-to-all-posts a{
+    width: 300px;
+    padding: 20px;
+    background-color: #7E5E47 !important;
+}
+.go-to-all-posts a:hover{
+    background-color: #8D4414 !important; 
+}

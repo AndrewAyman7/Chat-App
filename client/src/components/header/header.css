@@ -1,0 +1,64 @@
+.myNav{
+    background-color: #CE9969 !important;
+}
+
+a{
+    color: white !important;
+
+}
+
+.my-btn{
+    background-color: #8D4414 !important; 
+    color: white !important;
+}
+
+.cont{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.box1{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.navbar , .navbar-expand-lg{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+
+.dropdown-menu a {
+    color: black !important;
+}
+
+.mssg-nav-icon{
+    font-size: 20px;
+    color: white;
+}
+
+.mssg-nav-icon-box{
+    width: 50px;
+    padding: 4px;
+    border-radius: 50%;
+    border: 1px solid yellow;
+    text-align: center;
+    position: relative;
+}
+
+.mssg-nav-icon-box i{
+    width: 100%;
+}
+.mssg-nav-icon-box:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.mssg-nav-notifi{
+    width: 12px;
+    height: 12px;
+    display: inline-block;  /* 3shan elspan inline, msh bta5od width */
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
